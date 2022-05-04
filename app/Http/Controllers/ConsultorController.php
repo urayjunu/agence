@@ -63,6 +63,7 @@ class ConsultorController extends Controller
       		}
       	}
 
-        return view('Consultor.desem_consultor_rel')->with(compact('consultores','list2'));
+
+        return view('Consultor.desem_consultor_rel')->with(compact('consultores','list2','receita_liquida'));
     }
 }
